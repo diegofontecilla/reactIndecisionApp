@@ -35,7 +35,6 @@ const appRoot = document.getElementById('app');
 
 // const numbers = [55, 101, 1000];
 
-
 const render = () => {
     const template = (
         <div>
