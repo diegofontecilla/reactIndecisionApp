@@ -15,7 +15,6 @@ class Counter extends React.Component {
         if (!isNaN(count)) {
             this.setState(() => ({ count }));
         }
-        // console.log('component did mount')
     }
     componentDidUpdate(prevProps, prevState) {
         if (prevState.count !== this.state.count) {
